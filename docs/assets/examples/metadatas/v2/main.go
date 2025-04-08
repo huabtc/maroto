@@ -4,12 +4,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/johnfercher/maroto/v2/pkg/core"
+	"github.com/huabtc/maroto/v2/pkg/core"
 
-	"github.com/johnfercher/maroto/v2"
+	"github.com/huabtc/maroto/v2"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
-	"github.com/johnfercher/maroto/v2/pkg/config"
+	"github.com/huabtc/maroto/v2/pkg/components/text"
+	"github.com/huabtc/maroto/v2/pkg/config"
 )
 
 func main() {

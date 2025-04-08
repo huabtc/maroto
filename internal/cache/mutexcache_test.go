@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/internal/cache"
+	"github.com/huabtc/maroto/v2/internal/cache"
 
-	"github.com/johnfercher/maroto/v2/mocks"
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/huabtc/maroto/v2/mocks"
+	"github.com/huabtc/maroto/v2/pkg/consts/extension"
+	"github.com/huabtc/maroto/v2/pkg/core/entity"
 
 	"github.com/stretchr/testify/assert"
 )

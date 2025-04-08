@@ -1,9 +1,9 @@
 package signature_test
 
 import (
-	"github.com/johnfercher/maroto/v2"
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/signature"
+	"github.com/huabtc/maroto/v2"
+	"github.com/huabtc/maroto/v2/pkg/components/col"
+	"github.com/huabtc/maroto/v2/pkg/components/signature"
 )
 
 // ExampleNew demonstrates how to create a signature component.

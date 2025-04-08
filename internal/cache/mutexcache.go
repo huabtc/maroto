@@ -3,8 +3,8 @@ package cache
 import (
 	"sync"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/huabtc/maroto/v2/pkg/consts/extension"
+	"github.com/huabtc/maroto/v2/pkg/core/entity"
 )
 
 type mutexCache struct {

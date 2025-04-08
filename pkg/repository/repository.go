@@ -4,8 +4,8 @@ package repository
 import (
 	"os"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontstyle"
+	"github.com/huabtc/maroto/v2/pkg/core/entity"
 )
 
 // Repository is the abstraction to load custom fonts.

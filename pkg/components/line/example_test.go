@@ -1,9 +1,9 @@
 package line_test
 
 import (
-	"github.com/johnfercher/maroto/v2"
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/line"
+	"github.com/huabtc/maroto/v2"
+	"github.com/huabtc/maroto/v2/pkg/components/col"
+	"github.com/huabtc/maroto/v2/pkg/components/line"
 )
 
 // ExampleNew demonstrates how create a line component.

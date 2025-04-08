@@ -5,25 +5,25 @@ import (
 	"log"
 	"os"
 
-	"github.com/johnfercher/maroto/v2"
+	"github.com/huabtc/maroto/v2"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/list"
-	"github.com/johnfercher/maroto/v2/pkg/config"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/metrics"
+	"github.com/huabtc/maroto/v2/pkg/components/list"
+	"github.com/huabtc/maroto/v2/pkg/config"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontstyle"
+	"github.com/huabtc/maroto/v2/pkg/metrics"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/code"
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/image"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/components/signature"
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
+	"github.com/huabtc/maroto/v2/pkg/components/code"
+	"github.com/huabtc/maroto/v2/pkg/components/col"
+	"github.com/huabtc/maroto/v2/pkg/components/image"
+	"github.com/huabtc/maroto/v2/pkg/components/row"
+	"github.com/huabtc/maroto/v2/pkg/components/signature"
+	"github.com/huabtc/maroto/v2/pkg/components/text"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/align"
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
+	"github.com/huabtc/maroto/v2/pkg/consts/align"
+	"github.com/huabtc/maroto/v2/pkg/consts/extension"
 
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/huabtc/maroto/v2/pkg/core"
+	"github.com/huabtc/maroto/v2/pkg/props"
 )
 
 var dummyText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac condimentum sem."
@@ -173,8 +173,8 @@ func buildFooter() []core.Row {
 	return []core.Row{
 		row.New(10).Add(
 			text.NewCol(2, "Site: https://maroto.io/"),
-			text.NewCol(5, "Discussions: https://github.com/johnfercher/maroto/issues/257"),
-			text.NewCol(5, "Branch: https://github.com/johnfercher/maroto/tree/v2"),
+			text.NewCol(5, "Discussions: https://github.com/huabtc/maroto/issues/257"),
+			text.NewCol(5, "Branch: https://github.com/huabtc/maroto/tree/v2"),
 		),
 	}
 }

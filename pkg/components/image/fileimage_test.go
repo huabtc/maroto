@@ -4,13 +4,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/mocks"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/test"
+	"github.com/huabtc/maroto/v2/internal/fixture"
+	"github.com/huabtc/maroto/v2/mocks"
+	"github.com/huabtc/maroto/v2/pkg/core/entity"
+	"github.com/huabtc/maroto/v2/pkg/test"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/image"
+	"github.com/huabtc/maroto/v2/pkg/components/image"
 )
 
 func TestNewFromFile(t *testing.T) {

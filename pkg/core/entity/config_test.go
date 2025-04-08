@@ -3,16 +3,16 @@ package entity
 import (
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/generation"
+	"github.com/huabtc/maroto/v2/pkg/consts/generation"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontfamily"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/consts/protection"
-	"github.com/johnfercher/maroto/v2/pkg/consts/provider"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/huabtc/maroto/v2/pkg/consts/extension"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontfamily"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontstyle"
+	"github.com/huabtc/maroto/v2/pkg/consts/protection"
+	"github.com/huabtc/maroto/v2/pkg/consts/provider"
+	"github.com/huabtc/maroto/v2/pkg/props"
 )
 
 func TestConfig_ToMap(t *testing.T) {

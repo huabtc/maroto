@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"testing"
 
-	gofpdf2 "github.com/johnfercher/maroto/v2/internal/providers/gofpdf"
+	gofpdf2 "github.com/huabtc/maroto/v2/internal/providers/gofpdf"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/internal/math"
+	"github.com/huabtc/maroto/v2/internal/fixture"
+	"github.com/huabtc/maroto/v2/internal/math"
 	"github.com/jung-kurt/gofpdf"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/johnfercher/maroto/v2/mocks"
+	"github.com/huabtc/maroto/v2/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

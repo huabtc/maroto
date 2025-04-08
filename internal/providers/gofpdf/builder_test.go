@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontfamily"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/huabtc/maroto/v2/internal/fixture"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontfamily"
+	"github.com/huabtc/maroto/v2/pkg/core/entity"
 
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf"
+	"github.com/huabtc/maroto/v2/internal/providers/gofpdf"
 	"github.com/stretchr/testify/assert"
 )
 

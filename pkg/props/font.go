@@ -1,8 +1,8 @@
 package props
 
 import (
-	"github.com/johnfercher/maroto/v2/pkg/consts/align"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
+	"github.com/huabtc/maroto/v2/pkg/consts/align"
+	"github.com/huabtc/maroto/v2/pkg/consts/fontstyle"
 )
 
 // Font represents properties from a text.

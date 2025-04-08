@@ -2,11 +2,11 @@
 
 # Maroto
 
-[![GoDoc](https://godoc.org/github.com/johnfercher/maroto?status.svg)](https://godoc.org/github.com/johnfercher/maroto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/johnfercher/maroto)](https://goreportcard.com/report/github.com/johnfercher/maroto)
+[![GoDoc](https://godoc.org/github.com/huabtc/maroto?status.svg)](https://godoc.org/github.com/huabtc/maroto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/huabtc/maroto)](https://goreportcard.com/report/github.com/huabtc/maroto)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go#template-engines)  
-[![CI](https://github.com/johnfercher/maroto/actions/workflows/goci.yml/badge.svg)](https://github.com/johnfercher/maroto/actions/workflows/goci.yml)
-[![Lint](https://github.com/johnfercher/maroto/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/johnfercher/maroto/actions/workflows/golangci-lint.yml)
+[![CI](https://github.com/huabtc/maroto/actions/workflows/goci.yml/badge.svg)](https://github.com/huabtc/maroto/actions/workflows/goci.yml)
+[![Lint](https://github.com/huabtc/maroto/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/huabtc/maroto/actions/workflows/golangci-lint.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/johnfercher/maroto)](https://codecov.io/gh/johnfercher/maroto)
 
 A Maroto way to create PDFs. Maroto is inspired in Bootstrap and uses [Gofpdf](https://github.com/jung-kurt/gofpdf). Fast and simple.
@@ -48,10 +48,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/johnfercher/maroto/pkg/color"
-	"github.com/johnfercher/maroto/pkg/consts"
-	"github.com/johnfercher/maroto/pkg/pdf"
-	"github.com/johnfercher/maroto/pkg/props"
+	"github.com/huabtc/maroto/pkg/color"
+	"github.com/huabtc/maroto/pkg/consts"
+	"github.com/huabtc/maroto/pkg/pdf"
+	"github.com/huabtc/maroto/pkg/props"
 	"os"
 	"time"
 )
