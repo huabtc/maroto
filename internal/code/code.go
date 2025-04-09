@@ -64,6 +64,8 @@ func (c *code) GenBar(code string, _ *entity.Cell, prop *props.Barcode) (*entity
 		return nil, err
 	}
 
+	//fmt.Println("height %s widhth %s", prop.Proportion.Height, prop.Proportion.Width)
+
 	width := float64(barCode.Bounds().Dx())
 	heightPercentFromWidth := prop.Proportion.Height / prop.Proportion.Width
 	height := int(width * heightPercentFromWidth)

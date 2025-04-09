@@ -1,6 +1,8 @@
 package gofpdf
 
 import (
+	"fmt"
+
 	"github.com/jung-kurt/gofpdf"
 
 	"github.com/huabtc/maroto/v2/internal/cache"
@@ -50,6 +52,7 @@ func (b *builder) Build(cfg *entity.Config, cache cache.Cache) *Dependencies {
 	})
 
 	for _, font := range cfg.CustomFonts {
+		fmt.Println("builder.go %s %s", font.Family, font.Style)
 		fpdf.AddUTF8FontFromBytes(font.Family, string(font.Style), font.Bytes)
 	}
 
@@ -63,6 +66,9 @@ func (b *builder) Build(cfg *entity.Config, cache cache.Cache) *Dependencies {
 	fpdf.AddPage()
 
 	font := NewFont(fpdf, cfg.DefaultFont.Size, cfg.DefaultFont.Family, cfg.DefaultFont.Style)
+	//fmt.Println(cfg.DefaultFont.Size, cfg.DefaultFont.Family, cfg.DefaultFont.Style)
+	fpdf.SetFont(cfg.DefaultFont.Family, string(cfg.DefaultFont.Style), cfg.DefaultFont.Size)
+
 	math := math.New()
 	code := code.New()
 	text := NewText(fpdf, math, font)

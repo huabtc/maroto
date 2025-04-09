@@ -16,7 +16,8 @@ const (
 	// A5 represents an A5 page size.
 	A5 Type = "a5"
 	// A6 represents an A6 page size.
-	A6 Type = "a6"
+	A6    Type = "a6"
+	Label Type = "label"
 	// Letter represents a letter page size.
 	Letter Type = "letter"
 	// Legal represents a legal page size.
@@ -58,6 +59,8 @@ func GetDimensions(pageSize Type) (float64, float64) {
 		return 148.4, 210.0
 	case A6:
 		return 105.0, 148.5
+	case Label:
+		return 100.0, 150.0
 	case Letter:
 		return 215.9, 279.4
 	case Legal:

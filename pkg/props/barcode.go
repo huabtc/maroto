@@ -1,6 +1,10 @@
 package props
 
-import "github.com/huabtc/maroto/v2/pkg/consts/barcode"
+import (
+	"fmt"
+
+	"github.com/huabtc/maroto/v2/pkg/consts/barcode"
+)
 
 // Barcode represents properties from a barcode inside a cell.
 type Barcode struct {
@@ -106,6 +110,10 @@ func (b *Barcode) MakeValid() {
 	} else if b.Proportion.Height < b.Proportion.Width*minHeightProportionBasedOnWidth {
 		b.Proportion.Height = b.Proportion.Width * minHeightProportionBasedOnWidth
 	}
+
+	fmt.Println("b.Proportion.Height", b.Proportion.Height)
+	fmt.Println("b.Proportion.Width", b.Proportion.Width)
+
 
 	if b.Type == "" {
 		b.Type = barcode.Code128

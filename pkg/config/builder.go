@@ -2,6 +2,7 @@
 package config
 
 import (
+	"fmt"
 	"strings"
 	"time"
 
@@ -209,6 +210,8 @@ func (b *CfgBuilder) WithDefaultFont(font *props.Font) Builder {
 	if font == nil {
 		return b
 	}
+
+	fmt.Println("font:", font.Family, font.Style, font.Size, font.Color)
 
 	if font.Family != "" {
 		b.defaultFont.Family = font.Family
